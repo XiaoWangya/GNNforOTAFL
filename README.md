@@ -1,6 +1,10 @@
 # GNNforOTAFL
 learn to allocate wireless resources with GNN in over-the-air FL system
 
+Create the associated environment with provided envs.yml
+```
+conda env create -f envs.yml
+```
 
 1. the GNN model is defined in file GraphNet_share.py
 2. run different_IRS/device_graph.py to get the channel-system parameter designs pairs 
